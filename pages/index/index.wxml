@@ -1,4 +1,4 @@
 <!--index.wxml-->
 <view class="container">
-  <ImgView bindtap="bind" wx:if="{{show}}" src="https://www.hmbstudio.cn/images/gzh.jpg" mode="aspectFit" bgcolor="red" ></ImgView>
+  <ImgView bindtap="bind" wx:if="{{show}}" src="https://www.hmbstudio.cn/images/gzh.jpg" mode="aspectFit" bgcolor="rgba(235,235,235,0.7)" ></ImgView>
 </view>
