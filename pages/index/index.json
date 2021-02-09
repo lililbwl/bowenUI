@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "Tabbar":"../../components/basic/tabbar/tabbar",
-    "ImgView":"../../components/common/imgview/imgview"
+    "Avatar":"../../components/basic/avatar/avatar",
+    "Title":"../../components/basic/title/title"
   }
 }

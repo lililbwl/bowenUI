@@ -1,0 +1,8 @@
+/* components/basic/title/title.wxss */
+.title{
+  width:100%;
+  line-height: 60rpx;
+  font-size:30rpx;
+  letter-spacing: 3rpx;
+  font-weight: 900;
+}

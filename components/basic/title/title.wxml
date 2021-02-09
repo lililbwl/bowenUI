@@ -1,0 +1,3 @@
+<!--components/basic/title/title.wxml-->
+<view class="title" style="font-size:{{size}}">{{text}}</view>
+

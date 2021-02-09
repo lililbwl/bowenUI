@@ -1,4 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-  <ImgView bindtap="bind" wx:if="{{imgviewshow}}" src="https://www.hmbstudio.cn/images/gzh.jpg" mode="aspectFit" bgcolor="rgba(235,235,235,0.7)" ></ImgView>
+  <Title text="【Avatar】 large middle small" size="30rpx"></Title>
+  <Avatar size="100rpx" src="/images/avatar.jpg" style="float:left;margin-right:40rpx"></Avatar>
+  <Avatar size="80rpx" src="/images/avatar.jpg" style="float:left;margin-right:40rpx"></Avatar>
+  <Avatar size="60rpx" src="/images/avatar.jpg" style="float:left;margin-right:40rpx"></Avatar>
+  
 </view>
