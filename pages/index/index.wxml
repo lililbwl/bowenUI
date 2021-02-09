@@ -1,9 +1,10 @@
 <!--index.wxml-->
 <view class="container">
   <view class="component_box">
-  <Title text="【Avatar】 large middle small" size="30rpx"></Title>
+  <Title text="【Avatar】 large middle small 自定义" size="30rpx"></Title>
   <Avatar size="100rpx" src="/images/avatar.jpg" style="float:left;margin-right:40rpx"></Avatar>
   <Avatar size="80rpx" src="/images/avatar.jpg" style="float:left;margin-right:40rpx;margin-top:10rpx;"></Avatar>
   <Avatar size="60rpx" src="/images/avatar.jpg" style="float:left;margin-right:40rpx;margin-top:20rpx;"></Avatar>
+  <Avatar size="40rpx" src="/images/avatar.jpg" style="float:left;margin-right:40rpx;margin-top:30rpx;"></Avatar>
 </view>
 </view>
