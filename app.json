@@ -1,14 +1,39 @@
 {
-  "pages":[
-    "pages/index/index"
+  "pages": [
+    "pages/index/index",
+    "pages/common/common",
+    "pages/person/person"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "",
-    "navigationBarTextStyle": "white",
-    "navigationStyle": "custom",
+    "navigationBarTitleText": "bowenui",
+    "navigationBarTextStyle": "black",
     "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color":"#767676",
+    "selectedColor": "#5a5a63",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Basic",
+        "iconPath": "/images/Basics.png",
+        "selectedIconPath": "/images/Basics_selected.png"
+      },
+      {
+        "pagePath": "pages/common/common",
+        "text": "Common",
+        "iconPath": "/images/common.png",
+        "selectedIconPath": "/images/common_selected.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "Person",
+        "iconPath": "/images/person.png",
+        "selectedIconPath": "/images/person_selected.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

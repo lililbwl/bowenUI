@@ -4,13 +4,13 @@ const app = getApp()
 
 Page({
   data: {
-    show:true
+    imgviewshow:false
   },
   onLoad() {
   },
   bind:function(){
     this.setData({
-      show:!this.data.show
+      imgviewshow:!this.data.imgviewshow
     })
   }
 })

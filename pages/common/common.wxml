@@ -1,0 +1,19 @@
+<!--pages/common/common.wxml-->
+<view class="container">
+  <view class="box">
+  <view class="item"  bindtap="bindimgviewshow">
+  <view class="left">
+    <image src="../../images/Basics_selected.png" class="left_pic"></image>
+  </view>
+  <view class="middle">ImgView</view>
+  <view class="right">
+    <image src="../../images/right_b.png" class="pic"></image>
+  </view>
+</view>
+
+
+</view>
+</view>
+
+
+<ImgView bindtap="bindimgviewshow" wx:if="{{imgviewshow}}" src="https://www.hmbstudio.cn/images/gzh.jpg" mode="aspectFit" bgcolor="rgba(245,245,245,0.8)" ></ImgView>
