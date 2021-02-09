@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Tabbar":"../../components/basic/tabbar/tabbar",
+    "ImgView":"../../components/common/imgview/imgview"
+  }
+}

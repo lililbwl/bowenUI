@@ -1,0 +1,4 @@
+<!--components/common/imgview/imgview.wxml-->
+<view class="imgview" style="background:{{bgcolor}}">
+  <image src="{{src}}" mode="{{mode}}"></image>
+</view>

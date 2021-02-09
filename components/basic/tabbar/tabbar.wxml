@@ -1,0 +1,6 @@
+<!--components/basic/tabbar/tabbar.wxml-->
+<view class="tabbar">
+  <view class="item">
+    
+  </view>
+</view>
