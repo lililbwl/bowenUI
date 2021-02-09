@@ -40,7 +40,7 @@ bindimgviewshow:function(){
 |------|-----|------|------|
 |src|string|空|图片链接|
 |mode|string|aspectFit|图片裁剪、缩放的模式｜
-|bgcolor｜string｜rgba(235,235,235,0.5)或red｜背景色|
+|bgcolor|string|rgba(235,235,235,0.5)或red|背景色|
 
 ### 事件定义
 | 事件名称|参数|说明 |
