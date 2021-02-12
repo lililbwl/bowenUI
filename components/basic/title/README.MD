@@ -1,6 +1,6 @@
-# Avatar
+# Title
 	
-头像显示
+标题
 
 maintainers：秋呈
 
@@ -12,14 +12,14 @@ maintainers：秋呈
 
 ```minipro
 .wxml
-<Avatar size="100rpx" src="/images/avatar.jpg" style="float:left;margin-right:40rpx"></Avatar>
+<Title text="【Title】 H1 H2 H3 H4 H5 自定义" size="30rpx"></Title>
 
 .js
 ...
 
 .json
 "usingComponents": {
-    "Avatar":"../../components/basic/avatar/avatar",
+    "Title":"../../components/basic/title/title"
   }
 ```
 
@@ -31,8 +31,8 @@ maintainers：秋呈
     
 | 属性名称| 类型 | 默认值|说明 |
 |------|-----|------|------|
-|src|string|/images/avatar.jpg|图片链接|
-|size|string|60rpx|默认大小|
+|text|string|h1|标题内容|
+|size|string|70rpx|默认大小｜
 
 ### 事件定义
 | 事件名称|参数|说明 |

@@ -1,7 +1,7 @@
 /**app.wxss**/
 .component_box{
   box-sizing: border-box;
-  padding:20rpx 0 20rpx 0;
+  padding:20rpx 0 20rpx 10rpx;
   margin: 60rpx auto;
   margin-bottom: 0;
   background: rgb(250, 250, 249);

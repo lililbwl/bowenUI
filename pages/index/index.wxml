@@ -1,5 +1,18 @@
 <!--index.wxml-->
 <view class="container">
+
+<!-- title -->
+<view class="component_box">
+  <Title text="【Title】 H1 H2 H3 H4 H5 自定义" size="30rpx"></Title>
+  <Title text="H1" size="60rpx" style="float:left;margin-right:10rpx"></Title>
+  <Title text="H2" size="50rpx" style="float:left;margin-right:10rpx"></Title>
+  <Title text="H3" size="40rpx" style="float:left;margin-right:10rpx"></Title>
+  <Title text="H4" size="30rpx" style="float:left;margin-right:10rpx"></Title>
+  <Title text="H5" size="20rpx" style="float:left;margin-right:10rpx"></Title>
+  <Title text="H6" size="15rpx"></Title>
+</view>
+
+<!-- avatar -->
   <view class="component_box">
   <Title text="【Avatar】 large middle small 自定义" size="30rpx"></Title>
   <Avatar size="100rpx" src="/images/avatar.jpg" style="float:left;margin-right:40rpx"></Avatar>
@@ -7,4 +20,6 @@
   <Avatar size="60rpx" src="/images/avatar.jpg" style="float:left;margin-right:40rpx;margin-top:20rpx;"></Avatar>
   <Avatar size="40rpx" src="/images/avatar.jpg" style="float:left;margin-right:40rpx;margin-top:30rpx;"></Avatar>
 </view>
+
+
 </view>
