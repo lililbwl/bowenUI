@@ -1,0 +1,4 @@
+<!--components/basic/button/button.wxml-->
+<view class="bwbutton {{size}}" style="width:{{width}};height:{{height}}">
+  {{text}}
+</view>

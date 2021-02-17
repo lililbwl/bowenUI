@@ -21,5 +21,15 @@
   <Avatar size="40rpx" src="/images/avatar.jpg" style="float:left;margin-right:40rpx;margin-top:30rpx;"></Avatar>
 </view>
 
+<!-- button -->
+<view class="component_box">
+  <Title text="【Button】large middle small 自定义" size="30rpx"></Title>
+  <Bwbutton text="添加" size="small"></Bwbutton>
+  <view  style="margin:16rpx 0 16rpx 0"><Bwbutton text="添加" size="middle"></Bwbutton></view>
+  <Bwbutton text="添加" size="large"></Bwbutton>
+  <view  style="margin:16rpx 0 0 0"><Bwbutton text="添加" size="middle" width="400rpx" height="70rpx"></Bwbutton></view>
+</view>
+
+
 
 </view>

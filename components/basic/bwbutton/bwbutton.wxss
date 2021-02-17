@@ -1,0 +1,22 @@
+/* components/basic/button/button.wxss */
+.bwbutton{
+  width:150rpx;
+  height:50rpx;
+  background: #555555;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small{
+  width:150rpx;
+  height:50rpx;
+}
+.middle{
+  width:200rpx;
+  height:60rpx;
+}
+.large{
+  width:240rpx;
+  height:90rpx;
+}
