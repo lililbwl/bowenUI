@@ -1,0 +1,4 @@
+<!--components/basic/icon/icon.wxml-->
+<view class="icon" style="width:{{width}};height:{{height}}">
+  <image src="{{url}}"></image>
+</view>

@@ -2,6 +2,7 @@
   "usingComponents": {
     "Avatar":"../../components/basic/avatar/avatar",
     "Title":"../../components/basic/title/title",
-    "Bwbutton":"../../components/basic/bwbutton/bwbutton"
+    "Bwbutton":"../../components/basic/bwbutton/bwbutton",
+    "Icon":"../../components/basic/icon/icon"
   }
 }

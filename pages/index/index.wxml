@@ -30,6 +30,11 @@
   <view  style="margin:16rpx 0 0 0"><Bwbutton text="添加" size="middle" width="400rpx" height="70rpx"></Bwbutton></view>
 </view>
 
+<!-- icon -->
+<view class="component_box">
+  <Title text="【Icon】图片、文字" size="30rpx"></Title>
+  <Icon url="../../../images/common_selected.png" width="50rpx" height="50rpx" count="32"></Icon>
+</view>
 
 
 </view>

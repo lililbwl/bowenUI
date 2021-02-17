@@ -1,0 +1,17 @@
+/* components/basic/icon/icon.wxss */
+.icon{
+  width:40rpx;
+  height:40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon image{
+  width:100%;
+  height:100%;
+}
+.icon .text{
+  width: 50rpx;
+  color: black;
+  heoght: 50rpx;
+}
